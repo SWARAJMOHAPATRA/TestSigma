@@ -31,6 +31,6 @@ jobs:
           echo test, and deploy your project.
       - name: Run Testsigma Automation Suites
         run: |
-          cd ${{ github.workspace }}/TestSigma
-          chmod a+x run_smoke_swaraj.sh
-          ./run_smoke_swaraj.sh
+          cd ${{ github.workspace }}/
+          chmod a+x swaraj.sh
+          ./swaraj.sh
